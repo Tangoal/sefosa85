@@ -26,3 +26,13 @@
 .icone_valeurs img {
     max-width: 100px;
 }
+
+.valeurs-section h2 {
+    margin-top: 0;
+}
+
+.valeurs-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}

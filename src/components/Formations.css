@@ -18,3 +18,13 @@
     list-style: circle;
     line-height: 150%;
 }
+
+.formations-section h2 {
+    margin-top: 0;
+}
+
+.formations-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}

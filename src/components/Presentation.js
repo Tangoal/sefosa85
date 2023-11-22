@@ -6,7 +6,7 @@ export default function Presentation() {
   return (
     <section id="presentation">
       <div class="presentation-bg">
-        <div class="section">
+        <div class="presentation-section">
           <h2>Team</h2>
           <div class="presentation-container">
             <div class="presentation-text">

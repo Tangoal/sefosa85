@@ -5,7 +5,7 @@ export default function Formations() {
   return (
     <section id="formations">
       <div class="formations-bg">
-        <div class="section">
+        <div class="formations-section">
           <h2>Formations</h2>
           <div class="formations-container">
             <div class="formations-cat">

@@ -2,14 +2,22 @@
     padding: 10px;
 }
 
-.hero-content {
+.hero-bg {
     background-color: #ffffff;
+}
+
+.hero-content {
     display: flex;
     padding: 15px 25px;
 }
 
 .hero-content>* {
     flex: 1;
+}
+
+.hero-section {
+    max-width: 1800px;
+    margin: auto;
 }
 
 .logo {

@@ -44,16 +44,6 @@ i {
     font-style: italic;
 }
 
-.section h2 {
-    margin-top: 0;
-}
-
-.section {
-    max-width: 800px;
-    margin: auto;
-    padding: 64px 16px;
-}
-
 @media only screen and (max-width: 768px) {
 
     .hero-content,

@@ -19,6 +19,16 @@
     flex: 1;
 }
 
+.contact-section h2 {
+    margin-top: 0;
+}
+
+.contact-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
 /* Styles pour la section contact info */
 
 .contact-info {

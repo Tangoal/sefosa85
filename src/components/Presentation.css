@@ -19,3 +19,13 @@
     hyphens: auto;
     margin-right: 50px;
 }
+
+.presentation-section h2 {
+    margin-top: 0;
+}
+
+.presentation-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
