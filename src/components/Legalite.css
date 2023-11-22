@@ -20,3 +20,13 @@
     text-align: justify;
     hyphens: auto;
 }
+
+.legal-section h2 {
+    margin-top: 0;
+}
+
+.legal-section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}

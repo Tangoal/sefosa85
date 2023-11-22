@@ -8,10 +8,10 @@ import ScrollToTop from './components/ScrollToTop';
 function App() {
   return (
     <>
-        <Routes>
-          <Route path='/' element={<Home />}></Route>
-          <Route path='/mentions-legales' element={<MentionsLegales />}></Route>
-        </Routes>
+      <Routes>
+        <Route path='/' element={<Home />}></Route>
+        <Route path='/mentions-legales' element={<MentionsLegales />}></Route>
+      </Routes>
       <ScrollToTop />
     </>
   );

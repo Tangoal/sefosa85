@@ -5,7 +5,7 @@ export default function Legalite() {
     return (
         <section class="legal">
             <div class="legal-bg">
-                <div class="section">
+                <div class="legal-section">
                     <div class="legal-container">
                         <h1>Mentions Légales</h1>
                         <h2>Identité</h2>
