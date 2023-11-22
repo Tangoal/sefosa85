@@ -1,0 +1,21 @@
+.presentation-bg {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.presentation-container {
+    display: flex;
+    margin: 10px 30px;
+
+}
+
+.presentation-container img {
+    max-width: 180px;
+    object-fit: contain;
+}
+
+.presentation-container p {
+    text-align: justify;
+    hyphens: auto;
+    margin-right: 50px;
+}

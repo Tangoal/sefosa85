@@ -1,0 +1,30 @@
+.hero {
+    padding: 10px;
+}
+
+.hero-content {
+    background-color: #ffffff;
+    display: flex;
+    padding: 15px 25px;
+}
+
+.hero-content>* {
+    flex: 1;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+}
+
+.logo img {
+    width: 70%;
+    max-width: 500px;
+    object-fit: contain;
+}
+
+.intro {
+    text-align: center;
+    color: #000000;
+    margin: auto 0;
+}

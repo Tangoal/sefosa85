@@ -1,0 +1,55 @@
+/* Styles pour la section contact form*/
+form div {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 20px;
+
+}
+
+input::placeholder,
+textarea::placeholder {
+    font-family: Proxima;
+    font-size: 100%;
+}
+
+input,
+textarea {
+    font-family: Proxima;
+    font-size: 100%;
+}
+
+.contact-form input {
+    height: 22px;
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: none;
+}
+
+.contact-form textarea {
+    resize: none;
+    height: 140px;
+    border: none;
+    border-bottom: 1px solid black;
+    line-height: 120%;
+}
+
+.button {
+    background-color: #000000;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: color 1s;
+    width: 100px;
+    margin: auto;
+}
+
+.button:hover {
+    color: #e5322b;
+}

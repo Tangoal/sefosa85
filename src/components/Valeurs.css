@@ -1,0 +1,28 @@
+.valeurs-bg {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.valeurs-container {
+    display: flex;
+}
+
+.valeurs-container p {
+    text-align: justify;
+    hyphens: auto;
+    margin: 0;
+}
+
+.valeurs-container >* {
+    flex: 1;
+    margin: 10px 30px;
+}
+
+.icone_valeurs {
+    display: flex;
+    justify-content: center;
+}
+
+.icone_valeurs img {
+    max-width: 100px;
+}

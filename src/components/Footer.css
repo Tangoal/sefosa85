@@ -1,0 +1,30 @@
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css');
+
+footer {
+    background-color: #000000;
+    text-align: center; /* Centrer le contenu du footer horizontalement */
+    padding-top: 20px; /* Marge en haut */
+    padding-bottom: 5px; /* Marge en bas */
+}
+.footer-social {
+    padding-bottom: 20px;
+}
+.footer-social i {
+    margin: 0 15px; /* Espace entre les icônes */
+    font-size: 200%; /* Augmenter la taille des icônes */
+    vertical-align: middle; /* Aligner verticalement les icônes avec le texte */
+    transition: color 0.2s;/* Durée de l'animation et propriétés affectées */
+}
+.footer-social i:hover {
+    color: #e5322b; /* Nouvelle couleur de texte au survol */
+}
+footer p {
+    font-size : 90%;
+}
+footer a{
+    color: #ffffff;
+    transition: color 1s;
+}
+footer a:hover{
+    color: #e5322b;
+}

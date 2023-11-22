@@ -1,0 +1,79 @@
+@font-face {
+    font-family: Ethnocentric;
+    src: url("./assets/fonts/FontsFree-Net-ethnocentric-rg.ttf");
+}
+
+@font-face {
+    font-family: Proxima;
+    src: url("./assets/fonts/FontsFree-Net-Proxima-Nova-Sbold.otf");
+}
+
+body {
+    font-family: 'Proxima';
+    background-color: #000000;
+    color: #ffffff;
+    /* Couleur de texte par défaut */
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-padding-top: 46px;
+    /* height of sticky header */
+}
+
+a {
+    color: #ffffff;
+    /* Couleur de lien par défaut */
+    text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+    text-align: center;
+    font-family: 'Ethnocentric';
+    letter-spacing: 1px;
+}
+
+p {
+    line-height: 120%;
+}
+
+i {
+    font-style: italic;
+}
+
+.section h2 {
+    margin-top: 0;
+}
+
+.section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
+@media only screen and (max-width: 768px) {
+
+    .hero-content,
+    .valeurs-container,
+    .presentation-container,
+    .formations-container,
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .presentation-text p {
+        margin-right: 0 !important;
+        margin-bottom: 30px;
+    }
+
+    .presentation-container {
+        align-items: center;
+    }
+
+    .contact-form {
+        margin-top: 20px;
+    }
+}

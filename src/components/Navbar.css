@@ -1,0 +1,33 @@
+.sticky-bar {
+    position: sticky;
+    background-color: #000000;
+    text-align: center;
+    top: 0;
+    padding: 15px;
+}
+
+.sticky-bar ul {
+    list-style: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    padding-inline-start: 0;
+}
+
+.sticky-bar li {
+    display: inline;
+    margin: 0 10px;
+}
+
+.sticky-bar ul li a {
+    color: #ffffff;
+    font-weight: normal;
+    transition: color 0.5s, font-weight 0.5s, margin-right 1s, margin-left 1s;
+    /* Durée de l'animation et propriétés affectées */
+}
+
+.sticky-bar ul li a:hover {
+    color: #e5322b;
+    font-weight: bold;
+    margin-right: 15px;
+    margin-left: 15px;
+}
