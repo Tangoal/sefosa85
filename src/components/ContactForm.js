@@ -3,20 +3,21 @@ import './ContactForm.css'
 
 export default function ContactForm() {
 
-    fetch("https://formsubmit.co/ajax/your@email.com", {
-        method: "POST",
-        headers: {
-            'Content-Type': 'application/json',
-            'Accept': 'application/json'
-        },
-        body: JSON.stringify({
-            name: "FormSubmit",
-            message: "I'm from Dero LABS"
-        })
-    })
-        .then(response => response.json())
-        .then(data => console.log(data))
-        .catch(error => console.log(error));
+    // Test ?
+    // fetch("https://formsubmit.co/ajax/your@email.com", {
+    //     method: "POST",
+    //     headers: {
+    //         'Content-Type': 'application/json',
+    //         'Accept': 'application/json'
+    //     },
+    //     body: JSON.stringify({
+    //         name: "FormSubmit",
+    //         message: "I'm from Dero LABS"
+    //     })
+    // })
+    //     .then(response => response.json())
+    //     .then(data => console.log(data))
+    //     .catch(error => console.log(error));
 
     return (
         <div class="contact-form">
