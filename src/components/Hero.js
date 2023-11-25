@@ -13,7 +13,7 @@ export default function Hero() {
             </div>
             <div class="intro">
               <h1>Formation pour les professionnels et les particuliers</h1>
-              <p>Ne restons pas démunis face aux accidents de la vie !</p>
+              <p>Ne restons pas démunis face aux accidents de la vie&nbsp;!</p>
             </div>
           </div>
         </div>
