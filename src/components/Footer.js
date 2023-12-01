@@ -12,7 +12,6 @@ export default function Footer() {
             </div>
             <div className="footer-legal">
                 <p><Link to="/mentions-legales" title="Mentions Légales">Mentions Légales</Link></p>
-                <p><a href="#" id="open_preferences_center">Préférences sur les Cookies</a></p>
             </div>
             <div className="footer-signature">
                 <p> Créé par <a href="https://www.linkedin.com/in/tanguy-le-pors/" title="Tanguy Le Pors" target="_blank">Tanguy Le Pors</a></p>

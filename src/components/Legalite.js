@@ -58,23 +58,6 @@ export default function Legalite() {
                         <br />
                         {/* Paragraphes rajoutés */}
                         <p>Lors du remplissage du formulaire de contact, sont collectés vos nom, prénom, adresse électronique et votre message.</p>
-                        <h3>Cookies</h3>
-                        <p>Le site n'utilise pas de cookies hormis ceux de Google Analytics.</p>
-                        <p>Un cookie est un fichier qui est téléchargé sur votre ordinateur lorsque vous consultez certains sites web. Les cookies permettent notamment à ces sites web de stocker et de récupérer des informations concernant les habitudes de navigation de l’utilisateur d’un site ou de son équipement puis, en fonction de ces informations, de le reconnaître.</p>
-                        <p>Toutefois, les données obtenues sont restreintes. Elles concernent uniquement le nombre de pages visitées, la ville où est localisée l’adresse IP de connexion au site web, la fréquence et la récurrence des visites, la durée de la visite, le navigateur, l’opérateur ou le type de terminal à partir duquel la visite est effectuée. Des données telles que le nom, le prénom de l’utilisateur ou l’adresse postale de connexion ne sont en aucun cas obtenues.</p>
-                        <p>Les informations collectées par ce biais ne seront utilisées que pour suivre le volume, le type et la configuration du trafic utilisant ce site, pour en développer la conception et l’agencement et à d’autres fins administratives et de planification et plus généralement pour améliorer le service que nous vous offrons.</p>
-                        <p>Ces informations ne seront pas, sauf accord de votre part, conservées plus de 13 mois.</p>
-                        <p>Vous avez la possibilité de désactiver les Cookies depuis les paramètres de votre navigateur.</p>
-                        {/* Paragraphes rajoutés Google Analytics*/}
-                        <h3>Avis important concernant le traitement des données en lien avec Google Analytics</h3>
-                        <p>Ce site utilise Google Analytics, un service d’analyse web fourni par Google Ireland Limited. Si l’organe responsable du traitement des données recueillies par ce site est basé hors de l’Espace économique européen et de la Suisse, alors le traitement des données associées à Google Analytics sera effectué par Google LLC (dont le siège est aux États-Unis). Google Ireland Limited et Google LLC sont dénommés ci-après « Google ».</p>
-                        <p>Google Analytics utilise des « cookies », des fichiers textes enregistrés sur l’ordinateur du visiteur du site, pour permettre l’analyse de l’utilisation du site par ce dernier. Les informations générées par le cookie (y compris l’adresse IP tronquée) sur l’utilisation du site web sont généralement transmises à et stockées par Google.</p>
-                        <p>Google Analytics est utilisé exclusivement avec l'extension « _anonymizeIp () » sur ce site. L’extension garantit une anonymisation de l’adresse IP par troncature et exclut de ce fait toute référence personnelle directe. Via cette extension, Google tronque l’adresse IP du visiteur du site situé dans un État membre de l’Union européenne ou dans un autre État parti à l’accord sur l’Espace économique européen. L’adresse IP complète du visiteur du site ne sera transmise aux serveurs de Google et tronquée aux Etats-Unis que dans des situations exceptionnelles. L’adresse IP, qui est fournie par le navigateur du visiteur du site utilisant Google Analytics, ne sera pas recoupée par Google avec d’autres données de Google.</p>
-                        <p>Au nom de l’opérateur du site, Google utilisera les informations collectées pour évaluer l’utilisation du site, compiler des rapports sur l’activité du site et fournir d’autres services liés au site web et à internet à l’opérateur du site (art. 6, 1. f, RGPD). L’intérêt légitime dans le traitement des données se trouve dans l'optimisation de ce site, l’analyse de l’utilisation du site et l'adaptation du contenu. L’intérêt des utilisateurs est adéquatement protégé par la pseudonymisation de leurs données.</p>
-                        <p>Google LLC garantit un niveau de protection adéquat des données sur la base de clauses contractuelles types européennes. Les données envoyées et couplées aux cookies de Google Analytics, comme l'ID de l’utilisateur ou les ID publicitaires, seront automatiquement effacés après 50 mois. La suppression des données qui ont atteint la date limite de conservation est effectuée automatiquement une fois par mois.</p>
-                        <p>Le visiteur du site peut refuser l’utilisation de cookies en sélectionnant le réglage approprié dans le navigateur. Le visiteur du site peut aussi empêcher Google de recueillir des informations (y compris l’adresse IP) via les cookies et de traiter ces informations en téléchargeant et installant ce plug-in dans son navigateur : http://tools.google.com/dlpage/gaoptout.</p>
-                        <p>Le visiteur du site peut empêcher la collecte des données par Google Analytics en cliquant sur ce lien. Un "cookie d'opt-out" sera alors placé et permettra au visiteur du site de ne pas être tracké durant sa navigation du site.</p>
-                        <p>Pour plus d’informations sur le traitement et l’utilisation des données par Google, les paramétrages et les possibilités de désactivation, veuillez consulter la politique de confidentialité de Google (https://policies.google.com/privacy) ainsi que les paramètres de Google Ads (https://adssettings.google.com/authenticated).</p>
                         <br />
                         <br />
                         <p>Mentions légales fournies par WebExpress – Version 2.4 – Utilisation libre sous Licence Creative Commons CC BY-NC-ND 3.0 FR / creativecommons.org.</p>
@@ -92,7 +75,7 @@ export default function Legalite() {
                         <br />
                     </div>
                 </div>
-                </div>
+            </div>
         </section>
     )
 }
