@@ -58,6 +58,8 @@ export default function Legalite() {
                         <br />
                         {/* Paragraphes rajoutés */}
                         <p>Lors du remplissage du formulaire de contact, sont collectés vos nom, prénom, adresse électronique et votre message.</p>
+                        <h3>Cookies</h3>
+                        <p>Le site n'utilise pas de cookies.</p>
                         <br />
                         <br />
                         <p>Mentions légales fournies par WebExpress – Version 2.4 – Utilisation libre sous Licence Creative Commons CC BY-NC-ND 3.0 FR / creativecommons.org.</p>
