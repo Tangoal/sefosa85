@@ -14,19 +14,18 @@ body {
     font-family: 'Proxima';
     background-color: #000000;
     color: #ffffff;
-    /* Couleur de texte par défaut */
     margin: 0;
     padding: 0;
 }
 
 html {
-    scroll-padding-top: 46px;
+    scroll-padding-top: 54px;
     /* height of sticky header */
+    scroll-behavior: smooth;
 }
 
 a {
     color: #ffffff;
-    /* Couleur de lien par défaut */
     text-decoration: none;
 }
 
@@ -36,37 +35,62 @@ h3 {
     text-align: center;
     font-family: 'Ethnocentric';
     letter-spacing: 1px;
+    text-align: center;
+}
+
+h3 {
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    margin-bottom: 16px;
 }
 
 p {
     line-height: 120%;
+    margin: 1em auto;
+    text-align: justify;
+    hyphens: auto;
 }
 
 i {
     font-style: italic;
 }
 
+.section-bg-black {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.section-bg-white {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.container {
+    display: flex;
+    margin: 10px 30px;
+    gap: 30px;
+}
+
+.section {
+    max-width: 800px;
+    margin: auto;
+    padding: 64px 16px;
+}
+
 @media only screen and (max-width: 768px) {
 
-    .hero-content,
-    .valeurs-container,
-    .presentation-container,
-    .formations-container,
-    .contact-container {
+    .container,
+    .container-valeurs,
+    .container-contact,
+    .hero-content {
         flex-direction: column;
     }
 
-    .presentation-text p {
-        margin-right: 0 !important;
-        margin-bottom: 30px;
-    }
-
-    .presentation-container {
-        align-items: center;
-    }
-
-    .contact-form {
-        margin-top: 20px;
+    .container-contact{
+        gap:18px;
     }
 
     h1 {

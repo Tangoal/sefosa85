@@ -4,10 +4,10 @@ import './Formations.css'
 export default function Formations() {
   return (
     <section id="formations">
-      <div class="formations-bg">
-        <div class="formations-section">
+      <div class="section-bg-black">
+        <div class="section">
           <h2>Formations</h2>
-          <div class="formations-container">
+          <div class="container">
             <div class="formations-cat">
               <h3>Secourisme</h3>
               <ul>

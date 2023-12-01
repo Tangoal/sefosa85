@@ -3,10 +3,10 @@ import './Legalite.css'
 
 export default function Legalite() {
     return (
-        <section class="legal">
-            <div class="legal-bg">
-                <div class="legal-section">
-                    <div class="legal-container">
+        <section className="legal">
+            <div className="section-bg-white">
+                <div className="section">
+                    <div className="container-legal">
                         <h1>Mentions Légales</h1>
                         <h2>Identité</h2>
 
@@ -92,7 +92,7 @@ export default function Legalite() {
                         <br />
                     </div>
                 </div>
-            </div>
+                </div>
         </section>
     )
 }

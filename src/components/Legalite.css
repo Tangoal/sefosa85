@@ -1,32 +1,3 @@
-.legal-bg {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.legal-container {
-    background-color: #ffffff;
-    color: #000000;
-}
-
-.legal-container h1 {
-    font-size: 2em;
-}
-
-.legal-container a {
-    color: blue;
-}
-
-.legal-container p {
-    text-align: justify;
-    hyphens: auto;
-}
-
-.legal-section h2 {
-    margin-top: 0;
-}
-
-.legal-section {
-    max-width: 800px;
-    margin: auto;
-    padding: 64px 16px;
+.container-legal a {
+    color:blue;
 }

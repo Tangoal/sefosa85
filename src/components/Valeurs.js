@@ -7,11 +7,11 @@ import sauver from ".//../assets/img/se-soucier.png"
 export default function Valeurs() {
   return (
     <section id="valeurs">
-      <div className="valeurs-bg">
-        <div className="valeurs-section">
-          <div className="valeurs-container">
-            <div className="sensibiliser">
-              <div className="icone_valeurs">
+      <div className="section-bg-black">
+        <div className="section">
+            <div className="container-valeurs">
+            <div className="valeur">
+              <div className="icone-valeur">
                 <img src={sensibiliser} alt="Sensibiliser" />
               </div>
               <h3>SEnsibiliser</h3>
@@ -21,8 +21,8 @@ export default function Valeurs() {
                 PREVENTION possible.
               </p>
             </div>
-            <div className="former">
-              <div className="icone_valeurs">
+            <div className="valeur">
+              <div className="icone-valeur">
                 <img src={former} alt="Former" />
               </div>
               <h3>FOrmer</h3>
@@ -34,8 +34,8 @@ export default function Valeurs() {
                 situation d'urgence.
               </p>
             </div>
-            <div className="sauver">
-              <div className="icone_valeurs">
+            <div className="valeur">
+              <div className="icone-valeur">
                 <img src={sauver} alt="Sauver" />
               </div>
               <h3>SAuver</h3>

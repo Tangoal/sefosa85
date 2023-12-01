@@ -1,38 +1,18 @@
-.valeurs-bg {
-    background-color: #000000;
-    color: #ffffff;
+.container-valeurs{
+display: flex;
 }
-
-.valeurs-container {
-    display: flex;
+.container-valeurs>*{
+    flex:1;
 }
-
-.valeurs-container p {
-    text-align: justify;
-    hyphens: auto;
-    margin: 0;
-}
-
-.valeurs-container >* {
-    flex: 1;
+.valeur{
     margin: 10px 30px;
 }
 
-.icone_valeurs {
+.icone-valeur {
     display: flex;
     justify-content: center;
 }
 
-.icone_valeurs img {
+.icone-valeur img {
     max-width: 100px;
-}
-
-.valeurs-section h2 {
-    margin-top: 0;
-}
-
-.valeurs-section {
-    max-width: 800px;
-    margin: auto;
-    padding: 64px 16px;
 }

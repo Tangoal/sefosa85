@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route } from "react-router-dom";
 import './App.css'
+import './ResetCSS.css';
 import Home from "./pages/Home";
 import MentionsLegales from "./pages/MentionsLegales";
 import ScrollToTop from './components/ScrollToTop';

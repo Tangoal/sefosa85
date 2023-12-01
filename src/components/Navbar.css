@@ -20,14 +20,12 @@
 
 .sticky-bar ul li a {
     color: #ffffff;
-    font-weight: normal;
-    transition: color 0.5s, font-weight 0.5s, margin-right 1s, margin-left 1s;
+    transition: color 0.5s, margin-right 1s, margin-left 1s;
     /* Durée de l'animation et propriétés affectées */
 }
 
 .sticky-bar ul li a:hover {
     color: #e5322b;
-    font-weight: bold;
     margin-right: 15px;
     margin-left: 15px;
 }

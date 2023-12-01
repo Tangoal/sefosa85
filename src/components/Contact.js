@@ -9,11 +9,11 @@ import ContactForm from './ContactForm'
 export default function Contact() {
   return (
     <section id="contact">
-      <div class="contact-bg">
-        <div class="contact-section">
+      <div class="section-bg-white">
+        <div class="section-contact">
           <h2>Contact</h2>
-          <div class="contact-container">
-            <div class="contact-info">
+          <div class="container-contact">
+            <div class="info-contact">
               <div class="icon-text">
                 <img src={avatar} alt="Fondateur" />
                 <p>Fabien DURAND</p>

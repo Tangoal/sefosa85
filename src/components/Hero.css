@@ -1,5 +1,6 @@
-.hero-bg {
-    background-color: #ffffff;
+.hero-section {
+    max-width: 1800px;
+    margin: auto;
 }
 
 .hero-content {
@@ -11,24 +12,20 @@
     flex: 1;
 }
 
-.hero-section {
-    max-width: 1800px;
-    margin: auto;
-}
-
 .logo {
     display: flex;
-    justify-content: center;
 }
 
 .logo img {
+    margin: auto;
     width: 70%;
     max-width: 500px;
-    object-fit: contain;
 }
 
 .intro {
-    text-align: center;
-    color: #000000;
     margin: auto 0;
+}
+
+.intro p {
+    text-align: center;
 }
