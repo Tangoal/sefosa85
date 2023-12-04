@@ -14,7 +14,7 @@ export default function Presentation() {
               <p>Diplômé d’un brevet en pédagogie, formateur SST, GQS, PSC1, PSE, agrémenté formateur Stop The Bleed® et formateur Secourisme au Combat, j'ai pu mettre en œuvre ces compétences aussi bien en métropole qu'en milieux isolés à l'étranger.</p>
               <p>En créant SEFOSA, mon souhait est de permettre à chacun de se SEnsibiliser, avant même de se FOrmer, pour savoir comment SAuver un parent, un enfant, un ami, un collègue…</p>
             </div>
-            <div class="presentation-img"><img src={profile_pic} alt="Fabien Durand" /></div>
+            <div class="presentation-img"><img src={profile_pic} loading="lazy" alt="Fabien Durand" /></div>
 
           </div>
         </div>

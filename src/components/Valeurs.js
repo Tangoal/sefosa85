@@ -9,10 +9,10 @@ export default function Valeurs() {
     <section id="valeurs">
       <div className="section-bg-black">
         <div className="section">
-            <div className="container-valeurs">
+          <div className="container-valeurs">
             <div className="valeur">
               <div className="icone-valeur">
-                <img src={sensibiliser} alt="Sensibiliser" />
+                <img src={sensibiliser} loading="lazy" alt="Sensibiliser" />
               </div>
               <h3>SEnsibiliser</h3>
               <p>
@@ -23,7 +23,7 @@ export default function Valeurs() {
             </div>
             <div className="valeur">
               <div className="icone-valeur">
-                <img src={former} alt="Former" />
+                <img src={former} loading="lazy" alt="Former" />
               </div>
               <h3>FOrmer</h3>
               <p>
@@ -36,7 +36,7 @@ export default function Valeurs() {
             </div>
             <div className="valeur">
               <div className="icone-valeur">
-                <img src={sauver} alt="Sauver" />
+                <img src={sauver} loading="lazy" alt="Sauver" />
               </div>
               <h3>SAuver</h3>
               <p>

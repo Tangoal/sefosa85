@@ -15,19 +15,19 @@ export default function Contact() {
           <div class="container-contact">
             <div class="info-contact">
               <div class="icon-text">
-                <img src={avatar} alt="Fondateur" />
+                <img src={avatar} loading="lazy" alt="Fondateur" />
                 <p>Fabien DURAND</p>
               </div>
               <div class="icon-text">
-                <img src={location} alt="Localisation" />
+                <img src={location} loading="lazy" alt="Localisation" />
                 <p>Vendée et départements limitrophes</p>
               </div>
               <div class="icon-text">
-                <img src={phone} alt="Téléphone" />
+                <img src={phone} loading="lazy" alt="Téléphone" />
                 <p>06 72 12 84 40</p>
               </div>
               <div class="icon-text">
-                <img src={mail} alt="Mail" />
+                <img src={mail} loading="lazy" alt="Mail" />
                 <p>contact@sefosa85.fr</p>
               </div>
             </div>
