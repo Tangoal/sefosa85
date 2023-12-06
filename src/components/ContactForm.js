@@ -28,6 +28,7 @@ export default function ContactForm() {
                 <div><input type="text" id="company" name="entreprise" placeholder="Entreprise" /></div>
                 <div><textarea className="textarea" id="message" name="message" placeholder="Votre message..." required="" defaultValue={""} /></div>
 
+                <input type="hidden" name="_captcha" value="false" />
                 <input type="hidden" name="_template" defaultValue="table" />
                 <input type="hidden" name="_subject" defaultValue="Nouveau message reçu sur sefosa85.fr" />
 
