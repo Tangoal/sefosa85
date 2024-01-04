@@ -3,11 +3,13 @@
 @font-face {
     font-family: Ethnocentric;
     src: url("./assets/fonts/FontsFree-Net-ethnocentric-rg.ttf");
+    font-display: swap;
 }
 
 @font-face {
     font-family: Proxima;
     src: url("./assets/fonts/FontsFree-Net-Proxima-Nova-Sbold.otf");
+    font-display: swap;
 }
 
 body {
