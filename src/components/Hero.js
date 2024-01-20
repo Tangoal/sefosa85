@@ -1,6 +1,6 @@
 import React from 'react'
 import './Hero.css'
-import logo from ".//../assets/img/LOGO_SEFOSA_RVB.jpg"
+import logo from ".//../assets/img/logo_sefosa.webp"
 
 export default function Hero() {
   return (
@@ -9,7 +9,7 @@ export default function Hero() {
         <div className="hero-section">
           <div className="hero-content">
             <div class="logo">
-              <img src={logo} alt="SEFOSA" />
+              <img fetchpriority="high" src={logo} alt="SEFOSA" />
             </div>
             <div class="intro">
               <h1>Formation pour les professionnels <br></br>et les particuliers</h1>

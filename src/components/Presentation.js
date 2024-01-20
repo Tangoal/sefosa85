@@ -1,6 +1,6 @@
 import React from 'react'
 import './Presentation.css'
-import profile_pic from ".//../assets/img/FD.jpg"
+import profile_pic from ".//../assets/img/fabien_durand.webp"
 
 export default function Presentation() {
   return (
