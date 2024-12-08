@@ -31,7 +31,7 @@ export default function Contact() {
                 <p>contact@sefosa85.fr</p>
               </div>
             </div>
-            <ContactForm />
+            {/* <ContactForm /> */}
           </div>
         </div>
       </div>
