@@ -1,15 +1,19 @@
 import React from 'react'
 import './Contact.css'
-import avatar from ".//../assets/img/avatar5.png"
-import location from ".//../assets/img/broche-de-localisation (2).png"
-import phone from ".//../assets/img/appel.png"
-import mail from ".//../assets/img/mail.png"
+//import avatar from ".//../assets/img/avatar.png"
+//import location from ".//../assets/img/localisation.png"
+//import phone from ".//../assets/img/appel.png"
+//import mail from ".//../assets/img/mail.png"
+import avatar from ".//../assets/img/avatar_inversed.png"
+import location from ".//../assets/img/localisation_inversed.png"
+import phone from ".//../assets/img/appel_inversed.png"
+import mail from ".//../assets/img/mail_inversed.png"
 import ContactForm from './ContactForm'
 
 export default function Contact() {
   return (
     <section id="contact">
-      <div class="section-bg-white">
+      <div class="section-bg-black">
         <div class="section-contact">
           <h2>Contact</h2>
           <div class="container-contact">
@@ -28,7 +32,7 @@ export default function Contact() {
               </div>
               <div class="icon-text">
                 <img src={mail} loading="lazy" alt="Mail" />
-                <p>contact@sefosa85.fr</p>
+                <p><a href="mailto:contact@sefosa85.fr">contact@sefosa85.fr</a></p>
               </div>
             </div>
             {/* <ContactForm /> */}

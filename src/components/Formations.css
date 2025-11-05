@@ -8,7 +8,105 @@
     margin: 10px 30px;
 }
 
-.formations-cat ul {
-    list-style: circle;
-    line-height: 150%;
+.formation-item {
+  max-width: 800px; /* Largeur maximale pour le conteneur de l'image */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.formation-img-container {
+  position: relative;
+  display: flex;
+  align-items: flex-end; /* Aligne les éléments en bas */
+  margin-top: 1em;
+  margin-bottom: 100px; /* Augmente l'espace pour la carte qui dépasse */
+}
+
+.formation-img-container img {
+  width: 65%; /* L'image prend 65% de la largeur */
+  height: 300px;
+  object-fit: cover;
+  border-radius: 25px;
+  filter: grayscale(100%);
+  transition: filter 0.8s ease-in-out;
+}
+
+.formation-img-container.visible .formation-img {
+  filter: grayscale(0%);
+}
+
+.formation-card {
+  position: relative; /* Ajout pour permettre le décalage */
+  top: 50px; /* Décale la carte de 50px vers le bas. Ajustez cette valeur comme vous le souhaitez. */
+  width: 50%; /* La carte prend 50% de la largeur */
+  background-color: white;
+  padding: 20px 25px;
+  border-radius: 25px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+  z-index: 10; /* S'assure que la carte est au-dessus de l'image */
+}
+
+.formation-img-container.left .formation-card.right {
+  margin-left: -15%; /* Marge négative pour le chevauchement */
+  text-align: left;
+}
+
+.formation-img-container.right .formation-img {
+  order: 2; /* Place l'image en deuxième position (à droite) */
+}
+
+.formation-img-container.right .formation-card.left {
+  margin-right: -15%; /* Marge négative pour le chevauchement */
+  text-align: left;
+  order: 1; /* Place la carte en première position (à gauche) */
+}
+
+.formation-img-container.last {
+    margin-bottom: 40px;
+}
+
+.formation-details {
+  font-style: italic;
+}
+
+/* --- Responsive pour les écrans de 768px et moins (tablettes et mobiles) --- */
+@media (max-width: 768px) {
+  .formation-img-container {
+    flex-direction: column; /* Empile l'image et la carte verticalement */
+    align-items: center; /* Centre les éléments horizontalement */
+    margin-bottom: 40px; /* Réduit l'espace entre les blocs */
+  }
+
+  .formation-img-container img {
+    width: 100%; /* L'image prend toute la largeur disponible */
+    height: 250px; /* On peut réduire un peu la hauteur sur mobile */
+  }
+
+  /* On réinitialise l'ordre pour que l'image soit toujours en premier */
+  .formation-img-container.right .formation-img {
+    order: 0;
+  }
+
+  .formation-card {
+    position: static; /* On réinitialise la position pour un alignement simple */
+    top: 0; /* On annule le décalage vertical */
+    width: 90%; /* La carte est légèrement moins large que l'image */
+    margin: 0; /* On centre la carte horizontalement */
+    margin-top: -25px; /* On remonte la carte pour chevaucher l'image */
+  }
+  .formation-img-container.right .formation-card.left {
+    order: 0; /* On réinitialise l'ordre */
+  }
+  
+  /* On s'assure d'annuler TOUTES les marges horizontales de la version ordinateur */
+  .formation-img-container.left .formation-card.right {
+    margin-left: 0 !important; /* On force l'annulation de la marge négative */
+  }
+  .formation-img-container.right .formation-card.left {
+    margin-right: 0 !important; /* On force l'annulation de la marge négative */
+  }
+
+  .formation-img-container.last {
+    margin-bottom: 0;
+  }
 }

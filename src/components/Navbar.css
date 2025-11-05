@@ -3,6 +3,7 @@
     background-color: #000000;
     text-align: center;
     top: 0;
+    z-index: 1000; /* Assure que la navbar reste au-dessus de tout */
     padding: 15px;
 }
 

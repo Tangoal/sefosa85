@@ -14,8 +14,8 @@
 
 body {
     font-family: 'Proxima';
-    background-color: #000000;
-    color: #ffffff;
+    background-color: #ffffff;
+    color: #000000;
     margin: 0;
     padding: 0;
 }
@@ -60,14 +60,14 @@ i {
     font-style: italic;
 }
 
-.section-bg-black {
-    background-color: #000000;
-    color: #ffffff;
-}
-
 .section-bg-white {
     background-color: #ffffff;
     color: #000000;
+}
+
+.section-bg-black {
+    background-color: #000000;
+    color: #ffffff;
 }
 
 .container {
