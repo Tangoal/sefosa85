@@ -1,7 +1,27 @@
-.presentation-img img {
-    max-width: 180px;
-}
-
 .presentation-img {
     margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.presentation-img img {
+  width: 60%; /* L'image prend 65% de la largeur */
+  object-fit: cover;
+  border-radius: 25px;
+  filter: grayscale(100%);
+  transition: filter 1s ease-in-out;
+}
+
+.presentation-img.visible img {
+  filter: grayscale(0%);
+}
+
+.presentation-text{
+    margin-bottom: 30px;
+}
+
+@media (max-width: 768px) {
+  .presentation-img img {
+    width: 100%; /* L'image prend 65% de la largeur */
+  }
 }

@@ -6,7 +6,7 @@ import formation3 from './../assets/img/formation3.webp'
 
 export default function Formations() {
   useEffect(() => {
-    const elements = document.querySelectorAll('.formation-img-container')
+    const elements = document.querySelectorAll('.formation-img')
     const observer = new IntersectionObserver(
       (entries) => {
         entries.forEach((entry) => {
@@ -17,7 +17,7 @@ export default function Formations() {
           }
         })
       },
-      { threshold: 0.5 } // L'animation se déclenche quand 50% de l'élément est visible
+      { threshold: 0.8 } // L'animation se déclenche quand 50% de l'élément est visible
     )
 
     elements.forEach((el) => observer.observe(el))
@@ -51,7 +51,7 @@ export default function Formations() {
               <div className="formation-img-container left last">
                 <img src={formation3} alt="Formation PPMS" className="formation-img" />
                 <div className="formation-card right">
-                  <h3>ACCOMPAGNEMENT PPMS</h3>
+                  <h3>PPMS</h3>
                   <p>Chaque établissement doit être prêt à faire face à une situation d’urgence. Nous accompagnons les entreprises dans la mise en place de leur Plan Particulier de Mise en Sûreté (PPMS), pour une organisation claire, réactive et adaptée à chaque environnement.</p>
                 </div>
               </div>

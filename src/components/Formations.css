@@ -28,10 +28,10 @@
   object-fit: cover;
   border-radius: 25px;
   filter: grayscale(100%);
-  transition: filter 0.8s ease-in-out;
+  transition: filter 1s ease-in-out;
 }
 
-.formation-img-container.visible .formation-img {
+.formation-img.visible {
   filter: grayscale(0%);
 }
 
@@ -90,7 +90,7 @@
   .formation-card {
     position: static; /* On réinitialise la position pour un alignement simple */
     top: 0; /* On annule le décalage vertical */
-    width: 90%; /* La carte est légèrement moins large que l'image */
+    width: 92%; /* La carte est légèrement moins large que l'image */
     margin: 0; /* On centre la carte horizontalement */
     margin-top: -25px; /* On remonte la carte pour chevaucher l'image */
   }
