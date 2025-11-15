@@ -20,6 +20,10 @@ display: flex;
     max-width: 100px;
 }
 
+.valeur p {
+  font-family: Proxima-bold;
+}
+
 @media only screen and (max-width: 768px) {
   .valeur{
     margin: 10px 30px;

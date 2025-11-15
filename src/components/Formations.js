@@ -36,23 +36,23 @@ export default function Formations() {
                 <img src={formation1} alt="Formation Secourisme" className="formation-img" />
                 <div className="formation-card right">
                   <h3>SECOURISME</h3>
-                  <p>Savoir agir face à une situation d’accident de travail. Nos formations en secourisme permettent à chaque participant d’acquérir rapidement les bons réflexes pour intervenir efficacement.</p>
-                  <p className="formation-details">SST, PSC, GQS, PSE 1&2, Stop The Bleed ®, TECC</p>
+                  <p>Nos formations en secourisme sont adaptées à votre activité et vous permettent d’acquérir les bons réflexes pour intervenir face à un accident de travail.</p>
+                  <p className="formation-details">SST, PSC, GQS, PSE 1&2, Stop The Bleed&nbsp;®, TECC</p>
                 </div>
               </div>
               <div className="formation-img-container right">
                 <img src={formation2} alt="Formation Incendie" className="formation-img" />
                 <div className="formation-card left">
                   <h3>INCENDIE</h3>
-                  <p>Prévenir et réagir face à un incendie est essentiel. Nos formations combinent théorie et exercices pratiques pour préparer chaque équipe à agir avec calme et efficacité.</p>
-                  <p className="formation-details">Equipier de Première Intervention, Evacuation</p>
+                  <p>Prévenir et réagir face à un incendie est essentiel. Nos formations combinent théorie et exercices pratiques pour préparer chaque équipe à agir avec calme et efficacité au sein de votre structure.</p>
+                  <p className="formation-details">Equipier de Première Intervention (EPI), Manipulation d’extincteurs, Evacuation</p>
                 </div>
               </div>
               <div className="formation-img-container left last">
                 <img src={formation3} alt="Formation PPMS" className="formation-img" />
                 <div className="formation-card right">
                   <h3>PPMS</h3>
-                  <p>Chaque établissement doit être prêt à faire face à une situation d’urgence. Nous accompagnons les entreprises dans la mise en place de leur Plan Particulier de Mise en Sûreté (PPMS), pour une organisation claire, réactive et adaptée à chaque environnement.</p>
+                  <p>Chaque établissement doit être prêt à faire face à une situation d’urgence. Nous accompagnons les entreprises dans la mise en place de leur <span className="bold">Plan Particulier de Mise en Sûreté (PPMS),</span> pour une organisation claire, réactive et adaptée à chaque environnement.</p>
                 </div>
               </div>
             </div>

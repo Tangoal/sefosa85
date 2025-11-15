@@ -47,5 +47,6 @@
 
 .icon-text p {
     margin: 0;
-    text-align: center;
+    text-align: left;
+    font-family: Proxima-Bold;
 }

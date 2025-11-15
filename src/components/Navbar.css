@@ -30,3 +30,12 @@
     margin-right: 15px;
     margin-left: 15px;
 }
+
+@media only screen and (max-width: 390px) {
+  .sticky-bar ul li a {
+    font-size: 90%;
+  }
+  .sticky-bar li {
+    margin: 0 5px;
+  }
+}

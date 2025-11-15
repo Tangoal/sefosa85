@@ -6,7 +6,7 @@ export default function Navbar() {
     <nav className="sticky-bar">
         <ul>
             <li><a href="#valeurs">SeFoSa</a></li>
-            <li><a href="#presentation">Team</a></li>
+            <li><a href="#presentation">Notre ADN</a></li>
             <li><a href="#formations">Formations</a></li>
             <li><a href="#contact">Contact</a></li>
         </ul>

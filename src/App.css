@@ -7,8 +7,14 @@
 }
 
 @font-face {
+    font-family: Proxima-Bold;
+    src: url("./assets/fonts/FontsFree-Net-Proxima-Nova-Soft-W03-Semibold.ttf");
+    font-display: swap;
+}
+
+@font-face {
     font-family: Proxima;
-    src: url("./assets/fonts/FontsFree-Net-Proxima-Nova-Sbold.otf");
+    src: url("./assets/fonts/FontsFree-Net-Proxima-Nova-Soft-W03-Regular.ttf");
     font-display: swap;
 }
 
@@ -29,6 +35,7 @@ html {
 a {
     color: #ffffff;
     text-decoration: none;
+    font-family: Proxima-Bold;
 }
 
 h1,
@@ -82,6 +89,10 @@ i {
     padding: 64px 16px;
 }
 
+.bold {
+    font-family: Proxima-Bold;
+}
+
 @media only screen and (max-width: 768px) {
 
     .container,
@@ -98,5 +109,9 @@ i {
     h1 {
         font-size: 130%;
     }
+
+    body {
+        font-size: 95%;
+    };
 
 }
