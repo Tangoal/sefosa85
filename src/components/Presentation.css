@@ -1,13 +1,27 @@
+.presentation-card {
+  display: flex;
+  align-items: flex-start; /* pas d'alignement forcé sur la hauteur */
+  gap: 40px;
+}
+
+.presentation-text {
+  flex: 1;
+}
+
 .presentation-img {
-    margin: auto;
-    display: flex;
-    justify-content: center;
+  display: flex;
+  margin :auto;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* nécessaire pour object-fit */
+  border-radius: 25px;
 }
 
 .presentation-img img {
-  width: 60%; /* L'image prend 65% de la largeur */
-  object-fit: cover;
-  border-radius: 25px;
+  max-width: 200px;      /* taille fixe sur desktop */
+  height: auto;      /* ratio conservé */
+  object-fit: cover; /* garde le ratio */
+  border-radius: 25px; /* bords arrondis */
   filter: grayscale(100%);
   transition: filter 1s ease-in-out;
 }
@@ -16,12 +30,22 @@
   filter: grayscale(0%);
 }
 
-.presentation-text{
-    margin-bottom: 30px;
-}
-
 @media (max-width: 768px) {
   .presentation-img img {
-    width: 100%; /* L'image prend 65% de la largeur */
+    max-width: 150px;   /* pleine largeur */
+  }
+}
+
+/* 📱 Version mobile */
+@media (max-width: 600px) {
+  .presentation-card {
+    flex-direction: column; /* image sous le texte */
+    align-items: center;
+    gap: 20px;
+  }
+
+  .presentation-img img {
+    max-width: 200px;   /* pleine largeur */
+    height: auto;  /* ratio conservé */
   }
 }

@@ -1,6 +1,6 @@
 import React, { useEffect } from 'react'
 import './Presentation.css'
-import team from ".//../assets/img/team.webp"
+import team from ".//../assets/img/notreadn.webp"
 
 export default function Presentation() {
   useEffect(() => {
@@ -41,7 +41,7 @@ export default function Presentation() {
                 </p>
 
                 <p>
-                  Notre spécialité : <span className="bold">Accompagner</span> les entreprises dans la prévention des risques professionnels, dans la Sécurité au Travail et dans la Sûreté, en alliant expertise terrain et approche humaine.
+                  Notre spécialité : <span className="bold">Accompagner</span> les entreprises dans la prévention des risques professionnels, dans la Santé & Sécurité au Travail et dans la Sûreté, en alliant expertise terrain et approche humaine.
                 </p>
 
                 <p>
